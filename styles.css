@@ -1,0 +1,113 @@
+/*CSS PROPERTIES IN EXTERNAL STYLE SHEET*/
+
+/* Universal Reset */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.website-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+}
+
+#title {
+    text-align: center;
+    top: 0;
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color:black;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+#picture {
+    text-align: center;
+}
+
+#photo-name{
+    text-align: center;
+}
+
+#name {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.subheader {
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px 12px;
+    display:inline-block;
+}
+
+.description {
+    padding: 20px;
+    max-width: 1600px; 
+    margin: 0 auto; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: large;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    hyphens: auto;
+    line-break: normal;
+}
+
+body {
+    background-image: url(https://tasbihdigital.com/wp-content/uploads/2022/07/Best-White-Aesthetic-Wallpaper.jpg);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.phone::before{
+    content: "\260E";
+}
+
+li.facebook{
+    padding-left: 20px; 
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png'); 
+    background-size: 16px 16px; 
+    background-repeat: no-repeat;
+    background-position: left center;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+li.instagram{
+    padding-left: 20px; 
+    background-image: url('https://img.freepik.com/premium-vector/modern-badge-logo-instagram-icon_578229-124.jpg');
+    background-size: 16px 16px; 
+    background-repeat: no-repeat;
+    background-position: left center;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+footer {
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
